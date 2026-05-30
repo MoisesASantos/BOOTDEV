@@ -1,5 +1,4 @@
 import pygame
-import random
 from constants import *
 from player import Player
 from logger import log_state

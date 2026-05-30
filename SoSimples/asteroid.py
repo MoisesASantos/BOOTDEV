@@ -1,5 +1,8 @@
 from constants import *
 from circleshape import *
+from logger import log_state
+from logger import log_event
+import random
 
 class  Asteroid(CircleShape):
 	def __init__(self, x: float, y: float, radius: float) -> None:
